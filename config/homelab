@@ -1,0 +1,9 @@
+server {
+    listen 80;
+    server_name 192.168.100.100;
+    root /var/www/homelab/html;
+    index index.html;
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}
