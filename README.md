@@ -1,14 +1,14 @@
-# 🏠 Homelab Linux
+# Homelab Linux
 
 Servidor Linux administrado desde cero como proyecto personal.
 
-## 📋 Descripción
+## Descripción
 
 Despliegue y administración de un servidor Ubuntu Server 24.04
 en entorno virtualizado (VirtualBox), con servicios reales
 de red y automatización mediante scripts Bash.
 
-## 🛠️ Stack tecnológico
+## Stack tecnológico
 
 - **OS:** Ubuntu Server 24.04 LTS
 - **Web:** Nginx
@@ -16,24 +16,24 @@ de red y automatización mediante scripts Bash.
 - **Monitorización:** Netdata
 - **Automatización:** Bash + Cron
 
-## 🗂️ Fases del proyecto
+## Fases del proyecto
 
 | Fase | Contenido | Estado |
 |------|-----------|--------|
 | 1 | Instalación, IP estática, hardening SSH, UFW | ✅ |
 | 2 | Servidor web Nginx con virtualhost propio | ✅ |
-| 3 | DNS local con Pi-hole | ♾️ |
+| 3 | DNS local con Pi-hole | ⌛ |
 | 4 | Monitorización con Netdata | ♾️ |
 | 5 | Scripts de automatización Bash | ♾️ |
 
-## 📁 Estructura del repositorio
+## Estructura del repositorio
 
 - `/docs` — Documentación detallada de cada fase
 - `/scripts` — Scripts Bash de administración y automatización
 - `/config` — Ficheros de configuración utilizados
 - `/capturas` — Evidencias visuales del laboratorio funcionando
 
-## 👤 Autor
+## Autor
 
 **Yassine Elouakili**  
 Técnico Superior en Administración de Sistemas en Red En Formación  
