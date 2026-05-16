@@ -1,4 +1,7 @@
 # Fase 1 — Base del servidor
+
+**Objetivo:** Instalación del sistema operativo, y configuración de IP estática, hardening SSH, UFW.
+ 
 **Instalación**
 - Durante el instalador, selecciona instalar OpenSSH Server cuando te lo ofrezca
 - Crea un usuario no-root, `yassine`

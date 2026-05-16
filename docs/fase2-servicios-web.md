@@ -1,4 +1,7 @@
 # Fase 2 — Servicios web
+
+**Objetivo:** Implementación de un servidor web con virtualhost propio
+
 **Instalar Nginx**
 ```
 sudo apt install nginx -y
