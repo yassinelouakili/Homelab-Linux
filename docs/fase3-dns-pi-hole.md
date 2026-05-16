@@ -132,6 +132,19 @@ http://192.168.100.101/admin
 ![pantalla_pihole](../capturas/32-webadmin-inicial.png)
 
 
+## Configurar red del servidor principal
+
+Cambiar el DNS del servidor principal (Homelab-UbuntuServer) a 192.168.100.101
+```
+network:
+  version: 2
+  ethernets:
+    enp0s3:
+      dhcp4: false
+      addresses: [192.168.100.100/24]
+      gateway4: 192.168.100.1
+      nameservers:
+        addresses: [192.168.100.101]
 ```
 
 
@@ -170,19 +183,3 @@ http://192.168.100.101/admin
 
 ---
 
-## Evidencias para documentacion
-
-Guardar estas capturas en el directorio `/capturas`:
-
-| Captura | Nombre sugerido |
-|---------|-----------------|
-| Pi-hole instalado | `31-pihole-instalado.png` |
-| Pantalla Pi-hole | `32-webadmin-inicial.png` |
-
-
----
-
-**Autor:** Yassine Elouakili
-**Fecha:** 2026-05-13
-**Estado:** Fase en curso
-```
