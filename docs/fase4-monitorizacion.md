@@ -50,8 +50,4 @@ Esta alerta aparece cuando el espacio del disco ha superado el 90%.
 
 | Problema | Solucion |
 |----------|----------|
-| No se accede al panel web | `sudo ufw allow 19999/tcp` |
-| La IP fija no se aplica | Verificar interfaz con `ip a` y ajustar YAML |
-| No resuelve DNS | `pihole restartdns` |
-| Se olvido la contraseña | `sudo pihole setpassword` |
-| El bloqueo no funciona | `pihole -g` (actualizar listas) |
+| No se accede al panel web | Revisar si el host esta conectado via red / `sudo ufw allow 19999/tcp` |
