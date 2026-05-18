@@ -23,7 +23,7 @@ de red y automatización mediante scripts Bash.
 | 1 | Instalación, IP estática, hardening SSH, UFW | ✅ |
 | 2 | Servidor web Nginx con virtualhost propio | ✅ |
 | 3 | DNS local con Pi-hole | ✅ |
-| 4 | Monitorización con Netdata | ♾️ |
+| 4 | Monitorización con Netdata | ✅ |
 | 5 | Scripts de automatización Bash | ♾️ |
 
 ## Estructura del repositorio
