@@ -50,4 +50,4 @@ Esta alerta aparece cuando el espacio del disco ha superado el 90%.
 
 | Problema | Solucion |
 |----------|----------|
-| No se accede al panel web | Revisar si el host esta conectado via red / `sudo ufw allow 19999/tcp` |
+| No se accede al panel web | `sudo ufw allow 19999/tcp` |

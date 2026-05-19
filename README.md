@@ -24,7 +24,7 @@ de red y automatización mediante scripts Bash.
 | 2 | Servidor web Nginx con virtualhost propio | ✅ |
 | 3 | DNS local con Pi-hole | ✅ |
 | 4 | Monitorización con Netdata | ✅ |
-| 5 | Scripts de automatización Bash | ♾️ |
+| 5 | Scripts de automatización Bash | ✅ |
 
 ## Estructura del repositorio
 

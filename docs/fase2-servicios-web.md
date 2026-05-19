@@ -16,11 +16,11 @@ Al abrir el navegador de UbuntuDesktop y entrar a `http://192.168.100.100` — p
 **Crear web**
 ```
 # Crea el directorio para la web
-sudo mkdir -p /var/www/miservidor/html
-sudo chown -R $USER:$USER /var/www/miservidor/html
+sudo mkdir -p /var/www/homelab/html
+sudo chown -R $USER:$USER /var/www/homelab/html
 
 # Crear una página simple
-nano /var/www/miservidor/html/index.html
+nano /var/www/homelab/html/index.html
 ```
 ```html
 <!DOCTYPE html>
